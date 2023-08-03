@@ -3,9 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <!-- Android -->
+    <link rel="icon" sizes="192x192" href="ico/cookbook.ico">
+    <!-- iOS -->
+    <link rel="apple-touch-icon" sizes="180x180" href="ico/cookbook.ico">
+    <link rel="shortcut icon" href="ico/cookbook.ico">
+    <link rel="stylesheet" href="css/index.css">
+    <title>CookBook</title>
 </head>
 <body>
-    
+    <img src="ico/cookbook.ico" width="100" height="100" alt="logo">
+    <nav>
+      <ul>
+        <li><a href="index.php" class="menu-link">Strona główna</a></li>
+        <li><a href="aboutme.html" class="menu-link">O mnie</a></li>
+        <li><a href="categories.php" class="menu-link">Kategorie</a></li>
+        <li><a href="kontakt.html" class="menu-link">Kontakt</a></li>
+        <li><a href="login.php" class="menu-link">Zaloguj się</a></li>
+      </ul>
+    </nav>
+
+    <main>
+        <!--
+        tu będą przepisy 
+        -->
+    </main>
+
 </body>
 </html>
