@@ -1,0 +1,100 @@
+/* Reset domyślnych marginesów i wcięć */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+/* Wyśrodkowanie obrazków */
+img {
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+}
+
+/* Styl dla favicon z obrazkiem cookbook */
+.link-cookbook-ico {
+    display: inline-block;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.menu-link {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Dodatkowe style dla konkretnych elementów */
+/* Na przykład, można dodać style dla nagłówków, obrazków, itp. */
+
+/* Przykład dla nagłówków */
+h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+/* Przykład dla przycisków */
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
