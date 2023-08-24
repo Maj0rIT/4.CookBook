@@ -15,17 +15,19 @@
     <img src="ico/cookbook.ico" width="100" height="100" alt="logo">
     <nav>
       <ul>
-        <li><a href="index.php" class="menu-link">Strona główna</a></li>
+        <li><a href="indexlogged.php" class="menu-link">Strona główna</a></li>
         <li><a href="aboutme.html" class="menu-link">O mnie</a></li>
         <li><a href="categories.php" class="menu-link">Kategorie</a></li>
         <li><a href="kontakt.html" class="menu-link">Kontakt</a></li>
-        <li><a href="login.php" class="menu-link">Zaloguj się</a></li>
+        <li><a href="add_recipe.php" class="menu-link">Dodaj Przepis</a></li>
+        <li><a href="logout.php" class="menu-link">Wyloguj się</a></li>
       </ul>
     </nav>
 
     <main>
       <?php
       $fileList = scandir('przepisy'); 
+
       foreach ($fileList as $file) {
           if ($file !== '.' && $file !== '..') {
               echo "<p><a href='przepisy/$file'>$file</a></p>"; 

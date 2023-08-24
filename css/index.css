@@ -43,13 +43,22 @@ nav a:hover {
     text-decoration: underline;
 }
 
-main {
-    max-width: 960px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #fff;
-}
-
+main a {
+    color: #007bff; 
+    text-decoration: none; 
+    transition: color 0.3s ease; 
+  }
+  
+  main a:hover {
+    color: #ff4500; 
+    text-decoration: none; 
+  }
+  
+  main a:visited {
+    color: #800080; 
+    text-decoration: none; 
+  }
+  
 /* Styl dla favicon z obrazkiem cookbook */
 .link-cookbook-ico {
     display: inline-block;
